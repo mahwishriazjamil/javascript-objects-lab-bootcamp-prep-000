@@ -14,5 +14,6 @@ function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
 }
 
 function deleteFromObjectByKey(object, key){
-  function removeFromPlaylist(playlist, artistName){ delete playlist.artistName; return playlist; }
+  delete object.key; 
+  return object; 
 }
